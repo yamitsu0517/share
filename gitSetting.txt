@@ -1,0 +1,3 @@
+# git pushf origin develop のように使う。
+# git rebase 後に使ったりする。安全にPushする。
+git config --global alias.pushf "push --force-with-lease"
